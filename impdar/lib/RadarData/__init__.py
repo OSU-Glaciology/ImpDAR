@@ -110,7 +110,7 @@ class RadarData(object):
             string = 'RadarData Object'
         return string
 
-    from ._RadarDataProcessing import reverse, nmo, crop, hcrop, restack, \
+    from ._RadarDataProcessing import reverse, nmo, crop, hcrop, hcrop_ki, restack, \
         rangegain, agc, constant_space, elev_correct, \
         constant_sample_depth_spacing, traveltime_to_depth
     from ._RadarDataSaving import save, save_as_segy, output_shp, output_csv, \
