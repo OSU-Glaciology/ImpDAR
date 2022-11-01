@@ -11,3 +11,9 @@ dependencies:
   - netCDF4
   - gdal
   - pyqt
+  - pyproj
+  - spyder
+  - jupyter notebook
+  - pip:
+    - PyQt5
+    - impdar
