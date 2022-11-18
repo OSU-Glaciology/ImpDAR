@@ -223,7 +223,7 @@ def load_bsi(fn_h5, XIPR=True, channel=0., line=None, nans=None, *args, **kwargs
                     c_timestamp = c_timestamp.decode('utf-8')
                 c_timestamp = c_timestamp[:c_timestamp.find(' ')]
                 dmy = list(map(int, c_timestamp.split('/')))
-                day_collection = datetime.datetime(dmy[2], dmy[1], dmy[0], 0, 0, 0)
+                day_collection = datetime.datetime(dmy[2], dmy[1], dmy[0], 0, 0, 0) 
 
             day_offset = (day_collection - datetime.datetime(1, 1, 1, 0, 0, 0)
                           ).days
