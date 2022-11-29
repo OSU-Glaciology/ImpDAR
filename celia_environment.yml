@@ -13,7 +13,10 @@ dependencies:
   - pyqt
   - pyproj
   - spyder
-  - jupyter notebook
+  - jupyter
+  - seaborn
+  - pandas
+  - pip
   - pip:
     - PyQt5
     - impdar
